@@ -50,3 +50,5 @@ workflows:
     jobs:
       - build_and_test
       - build_docker_image
+          context:
+            - cicd-workshop
