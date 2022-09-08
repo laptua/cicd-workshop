@@ -49,6 +49,6 @@ workflows:
   test_scan_deploy:
     jobs:
       - build_and_test
-      - build_docker_image
+      - build_docker_image:
           context:
             - cicd-workshop
