@@ -64,3 +64,5 @@ workflows:
       - build_docker_image:
           context:
             - cicd-workshop
+          requires:
+            - build_and_test
