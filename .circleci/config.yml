@@ -13,7 +13,7 @@ jobs:
       - node/install-packages
       - run:
           name: Run tests
-          command: np run test-ci
+          command: npm run test-ci
       - run:
           name: Copy tests results for storing
           command: |
